@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>caculator_Dominik</title>
+	<link rel="stylesheet" type="text/css" rel="stylesheet"  href="style.css" >
+</head>
+<body>
+	<div class = "container">
+		<div id="input"></div>
+		<div id="output"></div>
+		<table>
+			<tr>
+				<td class="num" onClick="enternumber(7)"><span>7</span></td>
+				<td class="num" onClick="enternumber(8)"><span>8</span></td>
+				<td class="num" onClick="enternumber(9)"><span>9</span></td>
+				<td id="plus" class="caculate" onClick="enternumber('+')"><span>+</span></td>
+			</tr>
+			<tr>
+				<td class="num" onClick="enternumber(4)"><span>4</span></td>
+				<td class="num" onClick="enternumber(5)"><span>5</span></td>
+				<td class="num" onClick="enternumber(6)"><span>6</span></td>
+				<td id="cut" class="caculate" onClick="enternumber('-')"><span>-</span></td>
+			</tr>
+			<tr>
+				<td class="num" onClick="enternumber(1)"><span>1</span></td>
+				<td class="num" onClick="enternumber(2)"><span>2</span></td>
+				<td class="num" onClick="enternumber(3)"><span>3</span></td>
+				<td id="multiply" class="caculate" onClick="enternumber('*')"><span>*</span></td>
+			</tr>
+			<tr>
+				<td class="num" onClick="enternumber(0)"><span>0</span></td>
+				<td id="clear" ><span>C</span></td>
+				<td id="equal" ><span>=</span></td>
+				<td id="devide"class="caculate" onClick="enternumber('/')"><span>/</span></td>
+			</tr>
+		</table>
+	</div>
+	<script type="text/javascript" src="caculator.js"></script>
+</body>
+</html>
